@@ -40,6 +40,3 @@ namespace DevTeams_Repository
     }
 }
 
-
-
-

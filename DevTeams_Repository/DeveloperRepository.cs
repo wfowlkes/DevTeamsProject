@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DevTeams_Repository
 {
-    
-         public class DeveloperRepository : DeveloperContent
+
+    public class DeveloperRepository : DeveloperContent
     {
         //Field
         public readonly List<DeveloperContent> _contentDirectory = new List<DeveloperContent>();
@@ -48,8 +48,9 @@ namespace DevTeams_Repository
             {
                 existingContent.TeamName = newContent.TeamName;
                 existingContent.FirstName = newContent.FirstName;
-                existingContent.LastName = newContent.LastName;               
-                existingContent.IsPluralsightAccessible = newContent.IsPluralsightAccessible;             
+                existingContent.LastName = newContent.LastName;
+                existingContent.IsPluralsightAccessible = newContent.IsPluralsightAccessible;
+
                 return true;
             }
             else

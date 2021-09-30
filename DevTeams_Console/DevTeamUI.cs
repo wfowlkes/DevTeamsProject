@@ -1,5 +1,6 @@
-﻿
-using DevTeams_Repository;
+
+﻿using DevTeams_Repository;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +27,6 @@ namespace DevTeamsConsole
 
         private void RunMenu()
         {
-
 
             bool isRunning = true;
             while (isRunning)
@@ -393,6 +393,5 @@ namespace DevTeamsConsole
         }
     }
 }
-
 
 
